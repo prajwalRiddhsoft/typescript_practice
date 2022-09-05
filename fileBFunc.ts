@@ -33,7 +33,7 @@ function func1():string{
  * @param firstVar - is of type string(type inference) and is optional
  * @returns - returns void
  */
- function func4(firstVar:string = 'no name'):void{
+ function func4(firstVar = 'no name'):void{
      console.log(firstVar);
 }
 
@@ -62,8 +62,8 @@ function func6(firstVar='default', secondVar?:boolean):void{
 
 /**
  * Rest Parameters
- * the function takes in one age parameter and any other parameter following that should be of type string
- * the rest of the parameters following the first, are grouped into an array and assigned to otherInput
+ * the function takes in one age parameter and any other parameter following that should be of type string.
+ * The rest of the parameters following the first, are grouped into an array and assigned to otherInput
  * 
  * @param age - is of type number
  * @param otherInput - is of type array(RestParameters)

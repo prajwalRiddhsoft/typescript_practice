@@ -1,5 +1,5 @@
 export{};
-//Types in Variables in Typescript
+//Types of Variables in Typescript
 /**
  * The Primitives: string, number, boolean
  * Arrays: denoted by [], ..i.e string[], number[]...

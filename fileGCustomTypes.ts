@@ -139,10 +139,10 @@ let aPerson: {name:string, age:number};
 
 //Generics funcitons
 //Using generics we can make the valid for all types
-function getFilledArray(value:string, n:number) {
-    return Array(n).fill(value);
-}
-//The funtion is valid for any primitive types also for custom types
-function getFilledArray2<T>(value: T, n: number): T[] {
-    return Array(n).fill(value);
-}
+// function getFilledArray(value:string, n:number) {
+//     return Array(n).fill(value);
+// }
+// //The funtion is valid for any primitive types also for custom types
+// function getFilledArray2<T>(value: T, n: number): T[] {
+//     return Array(n).fill(value);
+// }
